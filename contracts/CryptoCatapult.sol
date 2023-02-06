@@ -8,4 +8,12 @@ contract CryptoCatapult is ERC20 {
     constructor() ERC20("CryptoCatapult", "CCP") {
         _mint(msg.sender, _initial_supply);
     }
+
+    function giveMeTen() public {
+        _mint(msg.sender, 10 * 10 ** decimals());
+    }
+
+    function giveTenTo(address ad) public {
+        _mint(ad, 10 * 10 ** decimals());
+    }
 }
