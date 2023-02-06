@@ -22,4 +22,4 @@ Deploying contracts with the account: 0xeaeFFE33Abb09e4fc65F927625957b5F2d0e7332
 Account balance: 1.198147782479696175
 Token address: 0xf71aaD689A12DC5dAb8EC49C6e14314DBE3D6901
 
-Check at [polygon scan here](https://mumbai.polygonscan.com/address/0x59a48107889E8F49a86e318dCe1f29Ef7E538Ad7)
+Check at [polygon scan here](https://mumbai.polygonscan.com/address/0xf71aaD689A12DC5dAb8EC49C6e14314DBE3D6901)
