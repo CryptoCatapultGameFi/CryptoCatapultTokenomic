@@ -17,9 +17,15 @@ npx hardhat run scripts/deploy.js
 npx hardhat compile
 npx hardhat run scripts/deploy.js --network mumbai
 ```
+
+# Step to flatten this contract
+```shell
+npx hardhat flatten contracts/CryptoCatapult.sol >Flattened.sol
+```
+!Note: When flat the solidity file in mumbai poly scan might got many license error so leave only one license in the flattened file
 ## Result
 Deploying contracts with the account: 0xeaeFFE33Abb09e4fc65F927625957b5F2d0e7332
 Account balance: 1.198147782479696175
-Token address: 0xf71aaD689A12DC5dAb8EC49C6e14314DBE3D6901
+Token address: 0x76d7d4a62dE48579C103ff3a6dec0cb73a1C67Be
 
-Check at [polygon scan here](https://mumbai.polygonscan.com/address/0xf71aaD689A12DC5dAb8EC49C6e14314DBE3D6901)
+Check at [polygon scan here](https://mumbai.polygonscan.com/address/0x76d7d4a62dE48579C103ff3a6dec0cb73a1C67Be)
