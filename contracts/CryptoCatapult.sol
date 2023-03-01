@@ -16,4 +16,8 @@ contract CryptoCatapult is ERC20 {
     function giveTenTo(address ad) public {
         _mint(ad, 10 * 10 ** decimals());
     }
+
+    function giveAmount(uint amount) public {
+        _mint(msg.sender, amount * 10 ** decimals());
+    }
 }
